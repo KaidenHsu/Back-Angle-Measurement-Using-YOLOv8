@@ -1,6 +1,6 @@
 # Back Angle Measurement Model
 
-This is an implementation of the back angle measurement model in our IJETI, 2026 paper "Real-Time Video-Based Measurement of Back Angles Using YOLOv8 and Edge Detection for Strength Training" (DOI: https://doi.org/10.46604/ijeti.2026.15942).
+This is an implementation of the back angle measurement model in our ***IJETI, 2026*** paper ***"Real-Time Video-Based Measurement of Back Angles Using YOLOv8 and Edge Detection for Strength Training"*** (DOI: https://doi.org/10.46604/ijeti.2026.15942).
 
 ## Paper Abstract
 
@@ -8,7 +8,7 @@ This is an implementation of the back angle measurement model in our IJETI, 2026
 
 * Keywords: computer vision, YOLOv8, back angle measurement, strength training, sports injury prevention"
 
-<p align="center"><img src="output_img/dumbbell_200.jpg" alt="sample" width="480" /></p>
+<p align="center"><img src="output_img/dumbbell_200.jpg" alt="sample" width="360" /></p>
 
 ## Usage
 
