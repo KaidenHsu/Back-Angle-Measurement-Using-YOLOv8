@@ -15,13 +15,13 @@ This is an implementation of the back angle measurement model in our ***IJETI, 2
 ### back angle detection for images
 
 ```bash
-python3 code/process_img.py --seg_model segmod_path --detection_model detmod_path --input inp_img_path --output output_path --orientation left/right --background_color white/black
+python3 code/process_img.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --orientation <left/right> --background_color <white/black>
 ```
 
 ### back angle detection for videos
 
 ```bash
-python3 code/process_vid.py --seg_model segmod_path --detection_model detmod_path --input inp_img_path --output output_path --orientation left/right --background_color white/black
+python3 code/process_vid.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --orientation <left/right> --background_color <white/black>
 ```
 
 ## Helper scripts
@@ -29,7 +29,7 @@ python3 code/process_vid.py --seg_model segmod_path --detection_model detmod_pat
 ### image post-grayscale-blurring
 
 ```bash
-python3 code/grayscale_blur.py --seg_model segmod_path --detection_model detmod_path --input inp_img_path --output output_path --background_color white/black
+python3 code/grayscale_blur.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --background_color <white/black>
 ```
 
 ### saving a frame from a video
