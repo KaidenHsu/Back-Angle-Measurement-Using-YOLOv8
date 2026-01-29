@@ -1,8 +1,16 @@
 # Back Angle Measurement Model
 
-This is an implementation of the back angle measurement model in the paper. This model takes images as well as videos as input, measuring the back angle in real time without hassle!
+This is an implementation of the back angle measurement model in our IJETI, 2026 paper "Real-Time Video-Based Measurement of Back Angles Using YOLOv8 and Edge Detection for Strength Training" (DOI: https://doi.org/10.46604/ijeti.2026.15942).
 
-## How to use
+## Paper Abstract
+
+"Workout-related injuries, particularly lower back pain, are common among athletes of all levels and often result from improper form or posture. This study presents a computer-vision model for quantifying an athlete’s back angle during workouts. Using YOLOv8 (You Only Look Once, version 8) instance segmentation to isolate the trunk region, edge information was extracted via the Canny detector, and a geometric formula was applied to identify the neck and back points for computing the back angle. YOLOv8 provides real-time detection with high accuracy and efficient processing, ensuring robust performance under diverse lighting and motion conditions. The model found achieving a mean relative error of about 7 %, which is considered highly accurate for video-based biomechanics and sufficient for real-time posture correction in training environments. These results demonstrate the feasibility of real-time back-posture monitoring, offering a practical tool for athletes to enhance performance and reduce the risk of back-related injuries.
+
+* Keywords: computer vision, YOLOv8, back angle measurement, strength training, sports injury prevention"
+
+<p align="center"><img src="output_img/dumbbell_200.jpg" alt="sample" width="480" /></p>
+
+## Usage
 
 ### back angle detection for images
 
@@ -25,6 +33,7 @@ python3 code/grayscale_blur.py --seg_model segmod_path --detection_model detmod_
 ```
 
 ### saving a frame from a video
+
 ```bash
 python3 code/save_frame_from_vid.py
 ```
