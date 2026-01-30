@@ -8,7 +8,10 @@ This is an implementation of the back angle measurement model in our ***IJETI, 2
 
 * Keywords: computer vision, YOLOv8, back angle measurement, strength training, sports injury prevention"
 
-<p align="center"><img src="output_img/dumbbell_200.jpg" alt="sample" width="360" /></p>
+<p align="center">
+    <img src="output_img/dumbbell_200.jpg" alt="sample" width="360" />
+    <img src="output_img/weight_lifting_100.jpg" alt="sample" width="360" />
+</p>
 
 ## Usage
 
