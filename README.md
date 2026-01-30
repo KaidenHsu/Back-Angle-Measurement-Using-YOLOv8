@@ -11,8 +11,8 @@ This is an implementation of the back angle measurement model in our ***IJETI, 2
 <p align="center"> <img src="demo_img/pushup.png" alt="sample" width="500" /> </p>
 <p align="center"> <img src="demo_img/model_development.png" alt="sample" width="840" /> </p>
 <p align="center">
-    <img src="demo_img/perf_body_parts.png" alt="sample" height="500" />
-    <img src="demo_img/perf_loading_weights.png" alt="sample" width="500" />
+    <img src="demo_img/perf_body_parts.png" alt="sample" width="300" />
+    <img src="demo_img/perf_loading_weights.png" alt="sample" width="300" />
 </p>
 
 ## Usage
