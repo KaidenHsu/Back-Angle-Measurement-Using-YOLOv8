@@ -1,4 +1,4 @@
-# Real-Time Back Angle Measurement Model using YOLOv8
+# 🏋️ Real-Time Back Angle Measurement Using YOLOv8
 
 This is an implementation of the back angle measurement model in our ***IJETI, 2026*** paper ***"[Real-Time Video-Based Measurement of Back Angles Using YOLOv8 and Edge Detection for Strength Training](https://doi.org/10.46604/ijeti.2026.15942)"***
 
