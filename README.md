@@ -10,7 +10,7 @@ This is an implementation of the back angle measurement model in our ***IJETI, 2
 
 <p align="center">
     <img src="output_img/dumbbell_200.jpg" alt="sample" width="360" />
-    <img src="output_img/weight_lifting_100.jpg" alt="sample" width="360" />
+    <img src="output_img/tricep_pushdown_100.jpg" alt="sample" width="360" />
 </p>
 
 ## Usage
