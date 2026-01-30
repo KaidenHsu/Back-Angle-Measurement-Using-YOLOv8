@@ -6,13 +6,15 @@ This is an implementation of the back angle measurement model in our ***IJETI, 2
 
 "Workout-related injuries, particularly lower back pain, are common among athletes of all levels and often result from improper form or posture. This study presents a computer-vision model for quantifying an athlete’s back angle during workouts. Using YOLOv8 (You Only Look Once, version 8) instance segmentation to isolate the trunk region, edge information was extracted via the Canny detector, and a geometric formula was applied to identify the neck and back points for computing the back angle. YOLOv8 provides real-time detection with high accuracy and efficient processing, ensuring robust performance under diverse lighting and motion conditions. The model found achieving a mean relative error of about 7 %, which is considered highly accurate for video-based biomechanics and sufficient for real-time posture correction in training environments. These results demonstrate the feasibility of real-time back-posture monitoring, offering a practical tool for athletes to enhance performance and reduce the risk of back-related injuries.
 
-* Keywords: computer vision, YOLOv8, back angle measurement, strength training, sports injury prevention"
+* **Keywords**: computer vision, YOLOv8, back angle measurement, strength training, sports injury prevention"
 
-<p align="center"> <img src="demo_img/pushup.png" alt="sample" width="500" /> </p>
+## Demo
+
+<p align="center"> <img src="demo_img/pushup.png" alt="sample" width="600" /> </p>
 <p align="center"> <img src="demo_img/model_development.png" alt="sample" width="840" /> </p>
 <p align="center">
-    <img src="demo_img/perf_body_parts.png" alt="sample" height="250" />
-    <img src="demo_img/perf_loading_weights.png" alt="sample" height="250" />
+    <img src="demo_img/perf_body_parts.png" alt="sample" height="300" />
+    <img src="demo_img/perf_loading_weights.png" alt="sample" height="300" />
 </p>
 
 ## Usage
