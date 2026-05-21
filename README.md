@@ -17,26 +17,27 @@ Workout-related injuries, particularly lower back pain, are common among athlete
 
 ## 💻 Usage
 
-### back angle detection (images)
+#### back angle detection (images)
 
 ```bash
 python3 code/process_img.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --orientation <left/right> --background_color <white/black>
 ```
 
-### back angle detection (videos)
+#### back angle detection (videos)
 
 ```bash
 python3 code/process_vid.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --orientation <left/right> --background_color <white/black>
 ```
 
-### image post-grayscale blurring
+#### image post-grayscale blurring
 
 ```bash
 python3 code/grayscale_blur.py --seg_model <segmod_path> --detection_model <detmod_path> --input <inp_img_path> --output <output_path> --background_color <white/black>
 ```
 
-### saving a frame from video
+#### saving a frame from video
 
 ```bash
 python3 code/save_frame_from_vid.py
 ```
+
